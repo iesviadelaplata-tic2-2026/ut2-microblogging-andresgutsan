@@ -27,7 +27,7 @@ body {
   font-family: "Segoe UI", Verdana, Arial, sans-serif;
   font-size: 16px;
   color: #111827;
-  background-color: #f2f5f8;
+  background-color: #e0e3e6;
 }
 
 a:link,
@@ -47,15 +47,15 @@ a:active {
    ========================================================================== */
 
 .cabecera {
-  background-color: #1e293b;
-  color: #ffffff;
+  background-color: whitesmoke;
+  color: #000000;
   text-align: center;
   padding: 60px 20px;
 }
 
 .cabecera .lema {
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.15);
   padding: 4px 14px;
   font-size: 0.8rem;
   font-weight: bold;
@@ -68,7 +68,7 @@ a:active {
 }
 
 .cabecera p {
-  color: #cbd5e1;
+  color: #000000;
   font-size: 1.1rem;
 }
 
@@ -92,15 +92,15 @@ a:active {
 
 .post {
   background-color: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-bottom: 4px solid #e5e7eb;
+  border: 1px solid #000000;
+  border-bottom: 4px solid #000000;
   padding: 24px;
   margin-bottom: 30px;
 }
 
 /* Al pasar el ratón, la línea inferior se pinta del color de los enlaces */
 .post:hover {
-  border-bottom-color: #478ac9;
+  border-bottom-color: #0881f3;
 }
 
 /* Autor del post */
@@ -110,14 +110,14 @@ a:active {
 
 /* Alias, fecha y tipo de post */
 .meta {
-  color: #6b7280;
+  color: #000000;
   font-size: 0.85rem;
   margin-bottom: 16px;
 }
 
 /* Tipo de post: Texto, Foto, Cita, Enlace, Diálogo, Vídeo, Música */
 .tipo {
-  background-color: #db545a;
+  background-color: #2124a8;
   color: #ffffff;
   font-size: 0.7rem;
   font-weight: bold;
@@ -159,7 +159,7 @@ a:active {
 }
 
 .post-imagen figcaption {
-  color: #6b7280;
+  color: #535cad;
   font-size: 0.8rem;
   font-style: italic;
   margin-top: 6px;
@@ -184,12 +184,12 @@ a:active {
    ========================================================================== */
 
 .post blockquote {
-  border-left: 4px solid #db545a;
+  border-left: 4px solid #1e84e4;
   padding: 10px 20px;
   margin-bottom: 12px;
   font-size: 1.15rem;
   font-style: italic;
-  background-color: #f9fafb;
+  background-color: #ffffff;
 }
 
 .post blockquote p {
@@ -198,7 +198,7 @@ a:active {
 
 /* Autor de la cita */
 .post blockquote footer {
-  color: #6b7280;
+  color: #2e50ad;
   font-size: 0.9rem;
   font-style: normal;
 }
@@ -206,7 +206,7 @@ a:active {
 /* Diálogo: cada intervención en un párrafo; el nombre, en <strong> */
 .dialogo p {
   padding-left: 12px;
-  border-left: 2px solid #e5e7eb;
+  border-left: 2px solid #0055ff;
   margin-bottom: 8px;
 }
 
@@ -220,10 +220,10 @@ a:active {
    ========================================================================== */
 
 .post-pie {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #000000;
   padding-top: 12px;
   margin-top: 4px;
-  color: #6b7280;
+  color: #000000;
   font-size: 0.9rem;
 }
 
@@ -237,8 +237,8 @@ a:active {
    ========================================================================== */
 
 .pie {
-  background-color: #1e293b;
-  color: #cbd5e1;
+  background-color: whitesmoke;
+  color: #000000;
   text-align: center;
   font-size: 0.85rem;
   padding: 30px 20px;
@@ -246,5 +246,5 @@ a:active {
 
 .pie a:link,
 .pie a:visited {
-  color: #ffffff;
+  color: #0400ff;
 }
